@@ -1,13 +1,16 @@
 let NamePilot = prompt("qual seu nome, piloto?")
 
+if(NamePilot==null){
+    NamePilot="piloto não indetificado"
+}
 let velocity = 0
 
- NewVelocity = prompt("A que velocidade você gostaria de acelerar, "+NamePilot+"?")
- if(NewVelocity)  { 
-     velocity=NewVelocity
- }
+let NewVelocity = prompt("A que velocidade você gostaria de acelerar, "+NamePilot+"?")
+if(NewVelocity==null) {
+    NewVelocity=velocity
+}
 
-let ConfirmVelocity = confirm("estamos acelerando para "+NewVelocity+ " km/h?")
+let ConfirmVelocity = confirm("estamos acelerando para "+NewVelocity+ " km/h")
 
 if(ConfirmVelocity) { velocity=NewVelocity
 
