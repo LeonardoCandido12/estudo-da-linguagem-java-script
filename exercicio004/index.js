@@ -9,15 +9,15 @@ let ChooseOption = prompt(
         let DistancePC = ChooseOption * 0.306601
         alert("distancia em Anos-Luz: "+ChooseOption+" l.y"
         +"\nconversão desejada: "+DistancePC+" parsec")
-    break
+      break
     case "2":
         let DistaceAU = ChooseOption * 63241.1
         alert("distancia em Anos-Luz: "+ ChooseOption+" i.y"+"\nconversão desejada: "+DistaceAU+" AU")
-    break    
+      break    
     case "3":
         let DistanceKM = ChooseOption * 9.5 * Math.pow(10,12)
         alert("distancia em Anos-Luz: "+ChooseOption+" l.y"+"\nconversão desejada: "+DistanceKM+" Km")
-    break    
+      break    
     default:
         alert("distancia em anos-luz: "+ChooseOption+" l.y"+"\nunidade não identificada: conversão fora do escopo")
  }
