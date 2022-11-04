@@ -1,4 +1,4 @@
-const array = [2,3,4,5]
+let array = [2,3,4,5]
 
 // adicionar elementos
 // push - add elemento no final
@@ -17,25 +17,25 @@ let teste = array.pop()
 // shift -  remover elementos do inicio
 
 array.shift()
-console.log(array)
+//console.log(array)
 
 //pesquisar por um elemento
 // includes - retorna false ou true
 
 let pesquisa = array.includes(3)
-console.log(pesquisa)
+//console.log(pesquisa)
 
 // cortar e  concatenar
 // slice - cortar
 
-const numeros = array.slice(0,2)
-console.log(numeros)
+let numero = array.slice(0,2)
+console.log(numero)
 
 // concat - concatenar
 
 let outros = [5,6,7,8]
 numero = array.concat(outros,9,10)
-console.log(numero)
+//console.log(numero)
 
 //substituição dos elementos
 //splice
@@ -43,13 +43,13 @@ console.log(numero)
 let elementosremovidos = numero.splice(4,1,)
 
 
- console.log(elementosremovidos)
+ //console.log(elementosremovidos)
   numero.unshift(1)
-  console.log(numero)
+  //console.log(numero)
 
 // iterar sobre os elementos
-console.log(numero)
+//console.log(numero)
 
 for( let elemento = 0 ; elemento < numero.length; elemento++){
-    console.log(numero[elemento] + "esta na posição"+elemento)
+    //console.log(numero[elemento] + "esta na posição"+elemento)
 }
