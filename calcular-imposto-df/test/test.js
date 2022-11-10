@@ -1,6 +1,5 @@
 let ipe = 0,salario = 0,i = 0
-
-let tabela = [
+const tabela = [
     {salinicio:0      ,salfim:5000.0 ,salresid:5000  ,incide:0.11 },
     {salinicio:5000.1 ,salfim:7500   ,salresid:2500  ,incide:0.115},
     {salinicio:7500.1 ,salfim:12000  ,salresid:4500  ,incide:0.12 },
