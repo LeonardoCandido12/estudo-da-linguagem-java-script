@@ -18,9 +18,9 @@ function register(ev) {
     alert("Event Removed")
   }
   
-  const button = document.getElementById("register-button")
+  const button = document.getElementById("button-register")
   
-  button.addEventListener("click", register)
+  button.addEventListener('click', register)
   
   button.addEventListener("mouseover", function (ev) {
     console.log(ev)
